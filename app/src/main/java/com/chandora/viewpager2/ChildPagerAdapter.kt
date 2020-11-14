@@ -14,7 +14,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 class ChildPagerAdapter(activity: FragmentActivity): FragmentStateAdapter(activity) {
 
     override fun getItemCount(): Int {
-       return 3
+       return 6
     }
 
     override fun createFragment(position: Int): Fragment {

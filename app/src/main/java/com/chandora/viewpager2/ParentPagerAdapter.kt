@@ -14,7 +14,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 
 class ParentPagerAdapter(activity: AppCompatActivity): FragmentStateAdapter(activity) {
 
-    override fun getItemCount() = 3
+    override fun getItemCount() = 5
 
     override fun createFragment(position: Int): Fragment {
        return ParentFragment.newInstance()
